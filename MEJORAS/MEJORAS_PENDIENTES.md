@@ -1,5 +1,7 @@
 # Mejoras pendientes
 
+1.3.0: propuesta visual oscura de la incidencia #1 preparada en rama separada; pendiente de revisión final e integración por el propietario mediante PR.
+
 - Conectar una integración de IA para preparar correcciones a partir de incidencias; requiere configuración y permisos del propietario. La CI de pruebas no corrige errores automáticamente.
 - Configurar protección de main en GitHub si se quiere exigir técnicamente una PR y comprobaciones antes de integrar; CODEOWNERS por sí solo no lo exige.
 
