@@ -1,0 +1,24 @@
+# Archivos de ejecución y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+
+# Fuentes originales: se conservan localmente y no se publican
+*.pdf
+*.m4a
+*.mp3
+*.wav
+
+# Configuración y credenciales locales
+.codex/
+.agents/
+.aws/
+*.pem
+*.key

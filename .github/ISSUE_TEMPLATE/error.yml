@@ -1,0 +1,30 @@
+name: Informar de un error
+description: Algo no funciona como se esperaba en el conversor.
+title: '[Error] '
+body:
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducirlo
+      description: Indica cantidad, unidad de origen, unidad de destino y botones pulsados.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: observado
+    attributes:
+      label: Resultado observado
+      description: Copia el mensaje de error o adjunta una captura sin datos personales.
+    validations:
+      required: true
+  - type: input
+    id: entorno
+    attributes:
+      label: Versión del programa, Python y sistema operativo
+    validations:
+      required: true
