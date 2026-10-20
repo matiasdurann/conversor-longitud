@@ -1,5 +1,12 @@
 # Registro de cambios
 
+## 1.3.0 — 2026-10-20
+
+- Resuelve la petición visual de la incidencia #1 con el estilo confirmado por el propietario: oscuro, grises y detalles azules.
+- Fondo, campo de cantidad y selectores oscuros; controles más altos, Convertir azul, Limpiar gris, mensajes de error claros y resultado en panel con acento azul.
+- Se conservan cálculos, validación, intercambio, limpieza y teclado. Sin nuevas dependencias ni cambios de lógica.
+- Verificación: doce pruebas de regresión superadas; revisión visual de ventana, menú desplegable, aviso de entrada vacía y resultado 1500 mm = 1,5 m completada. Las pruebas existentes ejercitan también los tamaños mínimo, habitual y ampliado.
+
 ## Publicación y mantenimiento en GitHub — 2026-10-20
 
 - Publicación autorizada de código, pruebas y documentación; se excluyen audio, PDF, cachés y configuración local mediante .gitignore.

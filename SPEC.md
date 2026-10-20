@@ -38,6 +38,10 @@ Actualización autorizada el 2026-10-20: publicar código, pruebas y documentaci
 
 ## Criterios de aceptación
 
+### Incidencia #1: diseño oscuro (1.3.0, 2026-10-20)
+
+La incidencia solicita cambiar el aspecto y no describe un fallo funcional reproducible. El propietario concreta en el chat: «Oscuro, con tonos grises y detalles azules». Se sustituye la paleta clara por fondo gris oscuro, campos y selectores contrastados, botón principal azul, secundario gris y panel de resultado oscuro con acento azul. Se conserva Python/CustomTkinter, disposición adaptable, cantidad, validación, nueve conversiones, intercambio, limpieza y atajos. No se añaden dependencias ni funciones. Verificar regresión y revisar visualmente en tamaños mínimo y habitual, incluidos resultado, error y selectores. Presentar en PR vinculada a #1; integración final a cargo del propietario.
+
 ### Mejora 1.2.1: intercambiar unidades (2026-10-20)
 
 Se adapta el botón ⇄ existente (Intercambiar unidades), sin duplicarlo. Al pulsarlo intercambia Origen y Destino; conserva exactamente el texto de Cantidad/Valor, incluidos ceros, signo y separador decimal; deja el resultado en `—` y no ejecuta ninguna conversión. Dos pulsaciones restauran las unidades iniciales. Convertir mantiene su comportamiento. El indicador inicial y Limpiar mantienen su texto anterior.

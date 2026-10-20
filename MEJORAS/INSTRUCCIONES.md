@@ -1,5 +1,7 @@
 # Mantenimiento
 
+Desde 1.3.0 la interfaz usa un tema oscuro con grises y acentos azules (incidencia #1). Al revisar cambios visuales, comprobar campos, menús desplegables, resultado, errores y tamaños mínimo/habitual; conservar la legibilidad y todas las acciones existentes.
+
 ## Flujo en GitHub
 
 Reportar fallos mediante Issues. El propietario recibe avisos según su suscripción y los canales de notificación de GitHub. La IA debe reproducir el error, corregirlo en una rama y presentar una PR; matiasdurann hace la revisión e integración final. GitHub Actions ejecuta las pruebas en cada push/PR. CODEOWNERS indica el revisor, pero no impide por sí solo integrar: la protección obligatoria de main requiere configurar reglas en GitHub.

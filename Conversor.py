@@ -2,7 +2,7 @@
 
 from logica import UNIDADES, convertir, formatear
 
-VERSION = "1.2.1"
+VERSION = "1.3.0"
 
 def __getattr__(nombre):
     if nombre == "Conversor":

@@ -1,6 +1,6 @@
 # Conversor de longitud
 
-Aplicación local de Python 3 con CustomTkinter (versión 1.2.1). Requiere la dependencia de requirements.txt; una vez instalada funciona sin conexión a Internet.
+Aplicación local de Python 3 con CustomTkinter (versión 1.3.0), con tema oscuro en grises y detalles azules. Requiere la dependencia de requirements.txt; una vez instalada funciona sin conexión a Internet.
 
 ## Ejecutar
 
