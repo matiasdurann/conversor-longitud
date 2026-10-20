@@ -6,6 +6,7 @@
 - README de instalación, formulario de errores, plantilla de PR y CODEOWNERS para la revisión final del propietario.
 - GitHub Actions ejecuta unittest en Windows para pushes y pull requests. Sin integración de IA con credenciales ni fusión automática.
 - No cambia el programa: se conserva la versión 1.2.1.
+- Publicación inicial verificada: commit ddca368 y primera ejecución de GitHub Actions superada (12 pruebas). Actualizadas las acciones oficiales a v6 para evitar el aviso de Node.js 20 obsoleto. Suscripción del propietario a toda la actividad del repositorio confirmada.
 
 ## 1.2.1 — 2026-10-20
 
